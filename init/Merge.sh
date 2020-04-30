@@ -19,7 +19,7 @@ git clone https://github.com/sahyam2019/oub-remix.git
 cd oub-remix
 git remote set-url origin https://${GH_USERNAME}:${GH_PERSONAL_TOKEN}@github.com/sahyam2019/oub-remix.git
 git fetch
-git checkout staging
-git pull origin staging
-git push --force origin staging:sql-extended
+git checkout sql-extended
+git pull origin sql-extended
+git push --force origin sql-extended:sql-extended
 tg_sendinfo "<code>I have merged all commits from staging into sql-extended</code>"
